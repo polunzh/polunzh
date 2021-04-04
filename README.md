@@ -1,4 +1,4 @@
-# Hey, folks! <img src="https://raw.githubusercontent.com/polunzh/polunzh/master/wave.gif" width="30px"> [![Website Badge](https://img.shields.io/badge/website-3b5998?style=flat-square&logo=google-chrome&logoColor=white)](https://polunzh.com/)
+# Hey, folks! [![Website Badge](https://img.shields.io/badge/website-3b5998?style=flat-square&logo=google-chrome&logoColor=white)](https://polunzh.com/)
 
 My name is polunzh and I'm a software developer engineer. I'm from China 🇨🇳.
 
