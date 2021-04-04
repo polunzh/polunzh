@@ -2,7 +2,7 @@
 
 My name is polunzh and I'm a software developer engineer. I'm from China 🇨🇳.
 
-## I'm...
+## I'm ...
 
 - 🌱 I’m currently learning Go: [Go by example](https://github.com/polunzh/go-by-example) [Gin examples](https://github.com/polunzh/gin-examples)
 
