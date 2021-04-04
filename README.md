@@ -25,7 +25,7 @@ My name is polunzh and I'm a software developer engineer. I'm from China 🇨�
 <br/>
 <br/>
 
-*This readme template is forlked from https://github.com/thinkerou/thinkerou*
+*This readme template is forked from https://github.com/thinkerou/thinkerou*
 
 <!--
 **polunzh/polunzh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
