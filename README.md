@@ -33,6 +33,11 @@
 | [gin-examples](https://github.com/polunzh/gin-examples) | Gin web framework examples |
 | [leetcode](https://github.com/polunzh/leetcode) | Algorithm solutions in Go |
 
+### Latest Blog Posts
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
 ### Stats
 
 <div align="center">
