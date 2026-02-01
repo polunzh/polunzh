@@ -15,4 +15,5 @@ jobs:
           feed_list: "https://www.polunzh.com/atom.xml"
           max_post_count: 1
           template: "> **$title**$newline>$newline> $description$newline>$newline> $url"
-          item_exec: "post.description = post.description?.slice(0, 200) + '...'"
+          item_exec: "post.description = post.description?.replace(/<[^>]*>/g, '').slice(0, 200) + '...'"
+          disable_html_encoding: true
