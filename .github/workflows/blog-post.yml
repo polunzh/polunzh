@@ -12,31 +12,53 @@ jobs:
 
       - name: Fetch and update blog post
         run: |
-          # Fetch latest post from Atom feed
-          curl -sL "https://www.polunzh.com/atom.xml" > feed.xml
+          python3 << 'PYTHON_SCRIPT'
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          import re
+          import html
 
-          # Extract first entry using xmllint
-          TITLE=$(xmllint --xpath 'string(//*[local-name()="entry"][1]/*[local-name()="title"])' feed.xml)
-          URL=$(xmllint --xpath 'string(//*[local-name()="entry"][1]/*[local-name()="link"]/@href)' feed.xml)
-          SUMMARY=$(xmllint --xpath 'string(//*[local-name()="entry"][1]/*[local-name()="summary"])' feed.xml | sed 's/<[^>]*>//g' | tr '\n' ' ' | head -c 200)
+          # Fetch feed
+          with urllib.request.urlopen('https://www.polunzh.com/atom.xml') as response:
+              feed = response.read().decode('utf-8')
 
-          # Create content block
-          cat > blog_content.txt << 'BLOGEOF'
-          > **TITLE_PLACEHOLDER**
+          # Parse XML
+          root = ET.fromstring(feed)
+          ns = {'atom': 'http://www.w3.org/2005/Atom'}
+
+          entry = root.find('atom:entry', ns)
+          title = entry.find('atom:title', ns).text
+          url = entry.find('atom:link', ns).get('href')
+          summary_elem = entry.find('atom:summary', ns)
+          summary = summary_elem.text if summary_elem is not None else ''
+
+          # Clean HTML and decode entities
+          summary = html.unescape(summary)
+          summary = re.sub(r'<[^>]+>', '', summary)
+          summary = ' '.join(summary.split())[:200]
+
+          # Create content
+          content = f'''> **{title}**
           >
-          > SUMMARY_PLACEHOLDER...
+          > {summary}...
           >
-          > URL_PLACEHOLDER
-          BLOGEOF
+          > {url}'''
 
-          sed -i "s|TITLE_PLACEHOLDER|${TITLE}|g" blog_content.txt
-          sed -i "s|SUMMARY_PLACEHOLDER|${SUMMARY}|g" blog_content.txt
-          sed -i "s|URL_PLACEHOLDER|${URL}|g" blog_content.txt
+          # Read README
+          with open('README.md', 'r') as f:
+              readme = f.read()
 
-          CONTENT=$(cat blog_content.txt)
+          # Replace content between markers
+          pattern = r'(<!-- BLOG-POST-LIST:START -->).*?(<!-- BLOG-POST-LIST:END -->)'
+          replacement = f'\\1\n{content}\n\\2'
+          readme = re.sub(pattern, replacement, readme, flags=re.DOTALL)
 
-          # Update README - clear old content and add new
-          sed -i '/<!-- BLOG-POST-LIST:START -->/,/<!-- BLOG-POST-LIST:END -->/c\<!-- BLOG-POST-LIST:START -->\n'"${CONTENT}"'\n<!-- BLOG-POST-LIST:END -->' README.md
+          # Write README
+          with open('README.md', 'w') as f:
+              f.write(readme)
+
+          print(f'Updated with: {title}')
+          PYTHON_SCRIPT
 
       - name: Commit changes
         run: |
