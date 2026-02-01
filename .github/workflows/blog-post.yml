@@ -13,26 +13,30 @@ jobs:
       - name: Fetch and update blog post
         run: |
           # Fetch latest post from Atom feed
-          FEED=$(curl -sL "https://www.polunzh.com/atom.xml")
+          curl -sL "https://www.polunzh.com/atom.xml" > feed.xml
 
-          # Extract first entry
-          TITLE=$(echo "$FEED" | grep -oP '(?<=<title>)[^<]+' | sed -n '2p')
-          URL=$(echo "$FEED" | grep -oP '(?<=<link href=")[^"]+' | sed -n '3p')
-          SUMMARY=$(echo "$FEED" | grep -oP '(?<=<summary type="html">).*?(?=</summary>)' | head -1 | sed 's/<[^>]*>//g' | head -c 200)
+          # Extract first entry using xmllint
+          TITLE=$(xmllint --xpath 'string(//*[local-name()="entry"][1]/*[local-name()="title"])' feed.xml)
+          URL=$(xmllint --xpath 'string(//*[local-name()="entry"][1]/*[local-name()="link"]/@href)' feed.xml)
+          SUMMARY=$(xmllint --xpath 'string(//*[local-name()="entry"][1]/*[local-name()="summary"])' feed.xml | sed 's/<[^>]*>//g' | tr '\n' ' ' | head -c 200)
 
           # Create content block
-          CONTENT="> **${TITLE}**
+          cat > blog_content.txt << 'BLOGEOF'
+          > **TITLE_PLACEHOLDER**
           >
-          > ${SUMMARY}...
+          > SUMMARY_PLACEHOLDER...
           >
-          > ${URL}"
+          > URL_PLACEHOLDER
+          BLOGEOF
 
-          # Update README
-          awk -v content="$CONTENT" '
-            /<!-- BLOG-POST-LIST:START -->/ { print; print content; found=1; next }
-            /<!-- BLOG-POST-LIST:END -->/ { found=0 }
-            !found { print }
-          ' README.md > README.tmp && mv README.tmp README.md
+          sed -i "s|TITLE_PLACEHOLDER|${TITLE}|g" blog_content.txt
+          sed -i "s|SUMMARY_PLACEHOLDER|${SUMMARY}|g" blog_content.txt
+          sed -i "s|URL_PLACEHOLDER|${URL}|g" blog_content.txt
+
+          CONTENT=$(cat blog_content.txt)
+
+          # Update README - clear old content and add new
+          sed -i '/<!-- BLOG-POST-LIST:START -->/,/<!-- BLOG-POST-LIST:END -->/c\<!-- BLOG-POST-LIST:START -->\n'"${CONTENT}"'\n<!-- BLOG-POST-LIST:END -->' README.md
 
       - name: Commit changes
         run: |
