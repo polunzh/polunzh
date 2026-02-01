@@ -35,8 +35,7 @@
 
 ### Latest Blog Posts
 
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->- [重逢](https://polunzh.com/post/reunion/)- [随想 - 二零二六年一月](https://polunzh.com/post/thinking-2026-01/)- [二零二五](https://polunzh.com/post/life-2025/)- [白虎](https://polunzh.com/post/life-baihu/)- [过年记事（二零二四年）](https://polunzh.com/post/life-2024-02-23/)<!-- BLOG-POST-LIST:END -->
 
 ### Stats
 
