@@ -33,7 +33,7 @@
 | [gin-examples](https://github.com/polunzh/gin-examples) | Gin web framework examples |
 | [leetcode](https://github.com/polunzh/leetcode) | Algorithm solutions in Go |
 
-### Latest Blog Posts
+### Latest Post
 
 <!-- BLOG-POST-LIST:START -->- [重逢](https://polunzh.com/post/reunion/)- [随想 - 二零二六年一月](https://polunzh.com/post/thinking-2026-01/)- [二零二五](https://polunzh.com/post/life-2025/)- [白虎](https://polunzh.com/post/life-baihu/)- [过年记事（二零二四年）](https://polunzh.com/post/life-2024-02-23/)<!-- BLOG-POST-LIST:END -->
 

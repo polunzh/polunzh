@@ -13,5 +13,6 @@ jobs:
       - uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://www.polunzh.com/atom.xml"
-          max_post_count: 5
-          template: "- [$title]($url)"
+          max_post_count: 1
+          template: "**[$title]($url)**$newline$description"
+          item_exec: "post.description = post.description?.slice(0, 150) + '...'"
