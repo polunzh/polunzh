@@ -37,7 +37,7 @@
 
 <!-- BLOG-POST-LIST:START -->> **重逢**
 >
-> $contentSnippet
+> ...
 >
 > https://polunzh.com/post/reunion/<!-- BLOG-POST-LIST:END -->
 
