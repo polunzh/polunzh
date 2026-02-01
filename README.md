@@ -1,42 +1,57 @@
-# Hey, folks! [![Website Badge](https://img.shields.io/badge/website-3b5998?style=flat-square&logo=google-chrome&logoColor=white)](https://polunzh.com/)
+<div align="center">
 
-My name is polunzh and I'm a software developer engineer. I'm from China 🇨🇳.
+```
+> zhenqiang@github:~$ whoami
+```
 
-## I'm ...
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Backend+Developer+%7C+China;JavaScript+%E2%86%92+Go+%E2%86%92+TypeScript;Open+Source+Enthusiast)](https://polunzh.com)
 
-- 🌱 I’m currently learning Go: [Go by example](https://github.com/polunzh/go-by-example) [Gin examples](https://github.com/polunzh/gin-examples)
+[![Website](https://img.shields.io/badge/-polunzh.com-000?style=flat&logo=safari&logoColor=white)](https://polunzh.com)
+[![GitHub](https://img.shields.io/github/followers/polunzh?label=Follow&style=flat&logo=github)](https://github.com/polunzh)
 
-## Languages & Frameworks & Tools & Abilities
+</div>
 
-![Node.js](https://img.shields.io/badge/-Node.js-black?logo=Node.js&style=social)&nbsp;&nbsp;
-![JavaScriipt](https://img.shields.io/badge/-JavaScript-black?logo=JavaScript&style=social)&nbsp;&nbsp;
-![Go](https://img.shields.io/badge/-Go-black?logo=go&style=social)&nbsp;&nbsp;
-![Git](https://img.shields.io/badge/-Git-black?logo=git&style=social)&nbsp;&nbsp;
+---
 
-<hr>
+### Tech
 
-<a href="https://github.com/polunzh/github-readme-stats" title="Go to Source">
-  <img height=180 src="https://github-readme-stats.vercel.app/api?username=polunzh&show_icons=true&theme=gotham">
-</a>
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=180 src="https://github-readme-stats.vercel.app/api/top-langs/?username=polunzh&hide=c%23,powershell,java&title_color=2aa889&text_color=99d1ce&icon_color=2bbc8a&bg_color=0c1014&langs_count=8&layout=compact" />
-</a>
+![JavaScript](https://img.shields.io/badge/-JavaScript-0d1117?style=flat&logo=javascript)
+![Go](https://img.shields.io/badge/-Go-0d1117?style=flat&logo=go)
+![TypeScript](https://img.shields.io/badge/-TypeScript-0d1117?style=flat&logo=typescript)
+![Rust](https://img.shields.io/badge/-Rust-0d1117?style=flat&logo=rust)
+![Python](https://img.shields.io/badge/-Python-0d1117?style=flat&logo=python)
+![Node.js](https://img.shields.io/badge/-Node.js-0d1117?style=flat&logo=node.js)
+![Docker](https://img.shields.io/badge/-Docker-0d1117?style=flat&logo=docker)
 
-<br/>
-<br/>
+### Projects
 
-*This readme template is forked from https://github.com/thinkerou/thinkerou*
+| Repo | Description |
+|:-----|:------------|
+| [homebridge-zigbee](https://github.com/polunzh/homebridge-zigbee) | Zigbee plugin for Homebridge smart home |
+| [action-version-check](https://github.com/polunzh/action-version-check) | GitHub Action for package version validation |
+| [go-by-example](https://github.com/polunzh/go-by-example) | Go language learning examples |
+| [gin-examples](https://github.com/polunzh/gin-examples) | Gin web framework examples |
+| [leetcode](https://github.com/polunzh/leetcode) | Algorithm solutions in Go |
 
-<!--
-**polunzh/polunzh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Stats
 
-Here are some ideas to get you started:
+<div align="center">
 
-- 🔭 I’m currently working on ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<img src="https://github-readme-stats.vercel.app/api?username=polunzh&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&icon_color=58a6ff&title_color=58a6ff" height="150" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=polunzh&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&hide=c%23,powershell,java" height="150" />
+
+</div>
+
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=polunzh&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff)](https://github.com/polunzh)
+
+</div>
+
+---
+
+<div align="center">
+
+![](https://komarev.com/ghpvc/?username=polunzh&color=58a6ff&style=flat&label=profile+views)
+
+</div>
