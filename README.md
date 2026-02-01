@@ -1,7 +1,7 @@
 <div align="center">
 
 ```
-> zhenqiang@github:~$ whoami
+> polunzh@github.com:~$ whoami
 ```
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Backend+Developer+%7C+China;JavaScript+%E2%86%92+Go+%E2%86%92+TypeScript;Open+Source+Enthusiast)](https://polunzh.com)
