@@ -35,8 +35,11 @@
 
 ### Latest Post
 
-<!-- BLOG-POST-LIST:START -->**[重逢](https://polunzh.com/post/reunion/)**
-...<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->> **重逢**
+>
+> ...
+>
+> https://polunzh.com/post/reunion/<!-- BLOG-POST-LIST:END -->
 
 ### Stats
 
