@@ -36,11 +36,11 @@
 ### Latest Post
 
 <!-- BLOG-POST-LIST:START -->
-> **重逢**
+> **烟花**
 >
-> 前两天了解到一位朋友的两位至亲已经去世多年，让我非常震惊。很难想象这位性格开朗的朋友已经失去了两位至亲，即便无法感同身受，但依然会忍不住去想象，这位朋友是怎么度过那些悲伤的日子的，在一个人的时候有多思念他们，在他乡的时候悲伤会不会加倍。 想起我大学最好...
+> <a href="#重逢" class="headerlink"...
 >
-> https://polunzh.com/post/reunion/
+> https://polunzh.com/post/diary-2026-02-22/
 <!-- BLOG-POST-LIST:END -->
 
 ### Stats
