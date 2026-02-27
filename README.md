@@ -27,7 +27,9 @@
 ---
 
 ### ✍️ Latest from [polunzh.com](https://polunzh.com)
+<!-- BLOG-POST-LIST:START -->
 * [烟花](https://polunzh.com/post/diary-2026-02-22/) (2026-02-22)
+<!-- BLOG-POST-LIST:END -->
 ---
 
 ### 📊 Statistics

@@ -16,7 +16,6 @@ jobs:
           import urllib.request
           import xml.etree.ElementTree as ET
           import re
-          import html
 
           # Fetch feed
           with urllib.request.urlopen('https://www.polunzh.com/atom.xml') as response:
@@ -28,21 +27,12 @@ jobs:
 
           entry = root.find('atom:entry', ns)
           title = entry.find('atom:title', ns).text
-          url = entry.find('atom:link', ns).get('href')
-          summary_elem = entry.find('atom:summary', ns)
-          summary = summary_elem.text if summary_elem is not None else ''
-
-          # Clean HTML and decode entities
-          summary = html.unescape(summary)
-          summary = re.sub(r'<[^>]+>', '', summary)
-          summary = ' '.join(summary.split())[:200]
+          link = entry.find('atom:link', ns).get('href')
+          published = entry.find('atom:published', ns)
+          date = published.text[:10] if published is not None else ''
 
           # Create content
-          content = f'''> **{title}**
-          >
-          > {summary}...
-          >
-          > {url}'''
+          content = f'* [{title}]({link}) ({date})'
 
           # Read README
           with open('README.md', 'r') as f:
