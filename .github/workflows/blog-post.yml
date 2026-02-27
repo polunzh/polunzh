@@ -16,20 +16,19 @@ jobs:
           import urllib.request
           import xml.etree.ElementTree as ET
           import re
+          from email.utils import parsedate_to_datetime
 
           # Fetch feed
-          with urllib.request.urlopen('https://www.polunzh.com/atom.xml') as response:
+          with urllib.request.urlopen('https://polunzh.com/rss.xml') as response:
               feed = response.read().decode('utf-8')
 
-          # Parse XML
+          # Parse RSS 2.0
           root = ET.fromstring(feed)
-          ns = {'atom': 'http://www.w3.org/2005/Atom'}
-
-          entry = root.find('atom:entry', ns)
-          title = entry.find('atom:title', ns).text
-          link = entry.find('atom:link', ns).get('href')
-          published = entry.find('atom:published', ns)
-          date = published.text[:10] if published is not None else ''
+          item = root.find('.//item')
+          title = item.find('title').text
+          link = item.find('link').text
+          pub_date = item.find('pubDate')
+          date = parsedate_to_datetime(pub_date.text).strftime('%Y-%m-%d') if pub_date is not None else ''
 
           # Create content
           content = f'* [{title}]({link}) ({date})'
