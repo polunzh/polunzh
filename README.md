@@ -28,7 +28,7 @@
 
 ### ✍️ Latest from [polunzh.com](https://polunzh.com)
 <!-- BLOG-POST-LIST:START -->
-* [烟花](https://polunzh.com/post/diary-2026-02-22/) (2026-02-22)
+* [新的时代](https://polunzh.com/posts/new-era/) (2026-02-25)
 <!-- BLOG-POST-LIST:END -->
 ---
 
