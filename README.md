@@ -10,7 +10,7 @@
 </p>
 
 > **Full-stack Engineer** | Focused on Scalable Systems, IoT, and DevEx.  
-> Currently building the future of decentralized apps @[ArcBlock](https://github.com/ArcBlock).
+<!-- > Currently building the future of decentralized apps @[ArcBlock](https://github.com/ArcBlock). -->
 
 ---
 
