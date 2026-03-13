@@ -28,7 +28,7 @@
 
 ### ✍️ Latest from [polunzh.com](https://polunzh.com)
 <!-- BLOG-POST-LIST:START -->
-* [新的时代](https://polunzh.com/posts/new-era/) (2026-02-25)
+* [用 Obsidian 写博客：我的发布流程改造](https://polunzh.com/posts/obsidian-blog-workflow/) (2026-03-12)
 <!-- BLOG-POST-LIST:END -->
 ---
 
