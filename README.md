@@ -28,7 +28,7 @@
 
 ### ✍️ Latest from [polunzh.com](https://polunzh.com)
 <!-- BLOG-POST-LIST:START -->
-* [用 Obsidian 写博客：我的发布流程改造](https://polunzh.com/posts/obsidian-blog-workflow/) (2026-03-12)
+* [成都](https://polunzh.com/posts/chengdu/) (2026-03-13)
 <!-- BLOG-POST-LIST:END -->
 ---
 
