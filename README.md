@@ -29,7 +29,7 @@
 
 ### ✍️ Latest from [polunzh.com](https://polunzh.com)
 <!-- BLOG-POST-LIST:START -->
-* [成都](https://polunzh.com/posts/chengdu/) (2026-03-13)
+* [把 NetNewsWire 整理成一个可同步、可维护、可备份的系统](https://polunzh.com/posts/netnewswire-cleanup-and-backup/) (2026-03-18)
 <!-- BLOG-POST-LIST:END -->
 ---
 
