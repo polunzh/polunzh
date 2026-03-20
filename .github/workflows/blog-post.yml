@@ -19,7 +19,11 @@ jobs:
           from email.utils import parsedate_to_datetime
 
           # Fetch feed
-          with urllib.request.urlopen('https://polunzh.com/rss.xml') as response:
+          req = urllib.request.Request(
+              'https://polunzh.com/rss.xml',
+              headers={'User-Agent': 'Mozilla/5.0 (GitHub Actions; polunzh/blog-post-workflow)'}
+          )
+          with urllib.request.urlopen(req) as response:
               feed = response.read().decode('utf-8')
 
           # Parse RSS 2.0
