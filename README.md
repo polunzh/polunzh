@@ -21,8 +21,9 @@
 ---
 
 ### 📂 Featured Projects
-* **[homebridge-zigbee](https://github.com/polunzh/homebridge-zigbee)** - 专业级的智能家居 Zigbee 集成方案。
-* **[action-version-check](https://github.com/polunzh/action-version-check)** - 确保项目版本一致性的自动化工程工具。
+* **[show](https://github.com/polunzh/show)** - AI Agent 专用的临时静态托管服务，一条命令部署，48 小时自动过期。
+* **[devpulse](https://github.com/polunzh/devpulse)** - 个人开发者热点内容聚合器，汇集 HackerNews、Reddit、V2EX 等平台热门内容，支持 AI 个性化推荐。
+* **[bookshelf-radar](https://github.com/polunzh/bookshelf-radar)** - iOS 离线优先的家庭图书管理应用，扫码建档、书架定位。
 
 ---
 
@@ -34,7 +35,7 @@
 
 ### 📊 Statistics
 ![Followers](https://img.shields.io/github/followers/polunzh?style=flat-square&logo=github&label=Followers&color=blue)
-![Zigbee Stars](https://img.shields.io/github/stars/polunzh/homebridge-zigbee?style=flat-square&logo=github&label=Zigbee%20Stars&color=yellow)
+![Show Stars](https://img.shields.io/github/stars/polunzh/show?style=flat-square&logo=github&label=Show%20Stars&color=yellow)
 ![Commits](https://img.shields.io/badge/Contributions-Active-green?style=flat-square&logo=github)
 
 <p align="left">
