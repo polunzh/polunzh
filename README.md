@@ -21,9 +21,10 @@
 ---
 
 ### 📂 Featured Projects
-* **[show](https://github.com/polunzh/show)** - AI Agent 专用的临时静态托管服务，一条命令部署，48 小时自动过期。
-* **[devpulse](https://github.com/polunzh/devpulse)** - 个人开发者热点内容聚合器，汇集 HackerNews、Reddit、V2EX 等平台热门内容，支持 AI 个性化推荐。
-* **[bookshelf-radar](https://github.com/polunzh/bookshelf-radar)** - iOS 离线优先的家庭图书管理应用，扫码建档、书架定位。
+* **[pocket-code](https://github.com/polunzh/pocket-code)** - Educational agentic coding CLI that demonstrates how tools like Claude Code work under the hood.
+* **[show](https://github.com/polunzh/show)** - Ephemeral static hosting for AI agents — deploy in one command, auto-expires in 48 hours.
+* **[devpulse](https://github.com/polunzh/devpulse)** - Developer news aggregator pulling trending content from HackerNews, Reddit, V2EX, and more, with AI-powered recommendations.
+* **[bookshelf-radar](https://github.com/polunzh/bookshelf-radar)** - Offline-first iOS app for home book management — scan barcodes, catalog, and locate books on your shelves.
 
 ---
 
