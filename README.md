@@ -26,7 +26,7 @@
 * **[KeepGoing](https://github.com/polunzh/KeepGoing)** - A macOS + iOS reminder app
 * **[show](https://github.com/polunzh/show)** - Temporary static hosting for AI Agents. Deploy with one command, auto-expire in 48h. Built on Cloudflare free tier.
 * **[zhaohua](https://github.com/polunzh/zhaohua)** - When I was little, growing up in a village in northern China in the 1990s, I wanted to be two things.
-* **[gallery](https://github.com/polunzh/gallery)** - No description provided.
+* **[gallery](https://github.com/polunzh/gallery)** - A personal cinematic screenshot gallery
 <!-- FEATURED-PROJECTS:END -->
 
 ---
