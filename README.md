@@ -21,10 +21,13 @@
 ---
 
 ### 📂 Featured Projects
-* **[pocket-code](https://github.com/polunzh/pocket-code)** - Educational agentic coding CLI that demonstrates how tools like Claude Code work under the hood.
-* **[show](https://github.com/polunzh/show)** - Ephemeral static hosting for AI agents — deploy in one command, auto-expires in 48 hours.
-* **[devpulse](https://github.com/polunzh/devpulse)** - Developer news aggregator pulling trending content from HackerNews, Reddit, V2EX, and more, with AI-powered recommendations.
-* **[bookshelf-radar](https://github.com/polunzh/bookshelf-radar)** - Offline-first iOS app for home book management — scan barcodes, catalog, and locate books on your shelves.
+<!-- FEATURED-PROJECTS:START -->
+* **[devpulse](https://github.com/polunzh/devpulse)** - A personal developer hotspot content aggregator. Collects trending posts from HackerNews, Reddit, V2EX, Medium and more, with AI-powered personalized recommendations.
+* **[KeepGoing](https://github.com/polunzh/KeepGoing)** - A macOS + iOS reminder app
+* **[show](https://github.com/polunzh/show)** - Temporary static hosting for AI Agents. Deploy with one command, auto-expire in 48h. Built on Cloudflare free tier.
+* **[zhaohua](https://github.com/polunzh/zhaohua)** - When I was little, growing up in a village in northern China in the 1990s, I wanted to be two things.
+* **[gallery](https://github.com/polunzh/gallery)** - No description provided.
+<!-- FEATURED-PROJECTS:END -->
 
 ---
 
